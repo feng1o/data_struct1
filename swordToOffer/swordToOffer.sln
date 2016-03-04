@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sto-", "swordToOffer\swordToOffer.vcxproj", "{7A5E4B46-33FB-4193-93DE-62E946A18F75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有序矩阵找数据是否存在", "有序矩阵找数据是否存在\有序矩阵找数据是否存在.vcxproj", "{4E8F6A66-34E7-4CB4-9E55-747267E50920}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "动静态库", "动静态库\动静态库.vcxproj", "{7D808ABE-16BE-40A9-B5F7-C32864FB465E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "动静态库调用", "动静态库调用\动静态库调用.vcxproj", "{1E1CE259-C5F7-4FB9-8988-D7032BACC16A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "背包问题_回溯", "背包问题_回溯\背包问题_回溯.vcxproj", "{B3C9A555-A542-447F-A0D1-C6E111ADBE9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sto-反转链表输出", "sto-反转链表输出\sto-反转链表输出.vcxproj", "{3C7B3C5B-3549-475D-9C67-7B350595D64D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ltc_1_twosum", "leetcode3-twosum\leetcode3-twosum.vcxproj", "{C0CAE6FA-C29C-4BB2-A901-8E2DD3DF1861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A5E4B46-33FB-4193-93DE-62E946A18F75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A5E4B46-33FB-4193-93DE-62E946A18F75}.Debug|Win32.Build.0 = Debug|Win32
+		{7A5E4B46-33FB-4193-93DE-62E946A18F75}.Release|Win32.ActiveCfg = Release|Win32
+		{7A5E4B46-33FB-4193-93DE-62E946A18F75}.Release|Win32.Build.0 = Release|Win32
+		{4E8F6A66-34E7-4CB4-9E55-747267E50920}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E8F6A66-34E7-4CB4-9E55-747267E50920}.Debug|Win32.Build.0 = Debug|Win32
+		{4E8F6A66-34E7-4CB4-9E55-747267E50920}.Release|Win32.ActiveCfg = Release|Win32
+		{4E8F6A66-34E7-4CB4-9E55-747267E50920}.Release|Win32.Build.0 = Release|Win32
+		{7D808ABE-16BE-40A9-B5F7-C32864FB465E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D808ABE-16BE-40A9-B5F7-C32864FB465E}.Debug|Win32.Build.0 = Debug|Win32
+		{7D808ABE-16BE-40A9-B5F7-C32864FB465E}.Release|Win32.ActiveCfg = Release|Win32
+		{7D808ABE-16BE-40A9-B5F7-C32864FB465E}.Release|Win32.Build.0 = Release|Win32
+		{1E1CE259-C5F7-4FB9-8988-D7032BACC16A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E1CE259-C5F7-4FB9-8988-D7032BACC16A}.Debug|Win32.Build.0 = Debug|Win32
+		{1E1CE259-C5F7-4FB9-8988-D7032BACC16A}.Release|Win32.ActiveCfg = Release|Win32
+		{1E1CE259-C5F7-4FB9-8988-D7032BACC16A}.Release|Win32.Build.0 = Release|Win32
+		{B3C9A555-A542-447F-A0D1-C6E111ADBE9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3C9A555-A542-447F-A0D1-C6E111ADBE9A}.Debug|Win32.Build.0 = Debug|Win32
+		{B3C9A555-A542-447F-A0D1-C6E111ADBE9A}.Release|Win32.ActiveCfg = Release|Win32
+		{B3C9A555-A542-447F-A0D1-C6E111ADBE9A}.Release|Win32.Build.0 = Release|Win32
+		{3C7B3C5B-3549-475D-9C67-7B350595D64D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C7B3C5B-3549-475D-9C67-7B350595D64D}.Debug|Win32.Build.0 = Debug|Win32
+		{3C7B3C5B-3549-475D-9C67-7B350595D64D}.Release|Win32.ActiveCfg = Release|Win32
+		{3C7B3C5B-3549-475D-9C67-7B350595D64D}.Release|Win32.Build.0 = Release|Win32
+		{C0CAE6FA-C29C-4BB2-A901-8E2DD3DF1861}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0CAE6FA-C29C-4BB2-A901-8E2DD3DF1861}.Debug|Win32.Build.0 = Debug|Win32
+		{C0CAE6FA-C29C-4BB2-A901-8E2DD3DF1861}.Release|Win32.ActiveCfg = Release|Win32
+		{C0CAE6FA-C29C-4BB2-A901-8E2DD3DF1861}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

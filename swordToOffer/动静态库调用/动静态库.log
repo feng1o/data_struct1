@@ -1,0 +1,10 @@
+﻿Build started 1/25/2016 1:09:12 PM.
+     1>Project "D:\yun\FPGA_c_pcb_m_all\Visual Studio 2013\swordToOffer\动静态库\动静态库.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         F:\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\yun\FPGA_c_pcb_m_all\Visual Studio 2013\swordToOffer\Release\动静态库.lib" /NOLOGO /LTCG "Release\静态库.obj"
+         动静态库.vcxproj -> D:\yun\FPGA_c_pcb_m_all\Visual Studio 2013\swordToOffer\Release\动静态库.lib
+     1>Done Building Project "D:\yun\FPGA_c_pcb_m_all\Visual Studio 2013\swordToOffer\动静态库\动静态库.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.27
