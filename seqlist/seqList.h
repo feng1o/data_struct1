@@ -23,7 +23,7 @@ struct tag_seqList
 	int capacity; //bukeshao
 	int length;
 	int next;
-	seqListNode node[]; //这个地方malloc情况，注意分析
+	seqListNode node[]; //这个地方malloc情况，注意分析  后门如何引用的？？？？
 };
 
 vSeqList * creatSeqList(int capacity);

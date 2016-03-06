@@ -73,6 +73,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "y--sto反转链表输出", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "v--有序矩阵找数据是否存在", "swordToOffer\有序矩阵找数据是否存在\有序矩阵找数据是否存在.vcxproj", "{4E8F6A66-34E7-4CB4-9E55-747267E50920}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alg--xiPKcard", "alg--xiPKcard\alg--xiPKcard.vcxproj", "{7A8A7DDB-18C7-4D97-B528-1A76514F2830}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heap--priorityQueue", "heap--priorityQueue\heap--priorityQueue.vcxproj", "{3AE618F2-7556-4F0B-B5F3-3B4C4776CD59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -219,6 +223,14 @@ Global
 		{4E8F6A66-34E7-4CB4-9E55-747267E50920}.Debug|Win32.Build.0 = Debug|Win32
 		{4E8F6A66-34E7-4CB4-9E55-747267E50920}.Release|Win32.ActiveCfg = Release|Win32
 		{4E8F6A66-34E7-4CB4-9E55-747267E50920}.Release|Win32.Build.0 = Release|Win32
+		{7A8A7DDB-18C7-4D97-B528-1A76514F2830}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A8A7DDB-18C7-4D97-B528-1A76514F2830}.Debug|Win32.Build.0 = Debug|Win32
+		{7A8A7DDB-18C7-4D97-B528-1A76514F2830}.Release|Win32.ActiveCfg = Release|Win32
+		{7A8A7DDB-18C7-4D97-B528-1A76514F2830}.Release|Win32.Build.0 = Release|Win32
+		{3AE618F2-7556-4F0B-B5F3-3B4C4776CD59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3AE618F2-7556-4F0B-B5F3-3B4C4776CD59}.Debug|Win32.Build.0 = Debug|Win32
+		{3AE618F2-7556-4F0B-B5F3-3B4C4776CD59}.Release|Win32.ActiveCfg = Release|Win32
+		{3AE618F2-7556-4F0B-B5F3-3B4C4776CD59}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

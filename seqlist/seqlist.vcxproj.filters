@@ -18,9 +18,15 @@
     <ClCompile Include="seqList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="seqList_pointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="seqList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="seqlist_pointer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

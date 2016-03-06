@@ -80,9 +80,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="seqList.cpp" />
+    <ClCompile Include="seqList_pointer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="seqList.h" />
+    <ClInclude Include="seqlist_pointer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

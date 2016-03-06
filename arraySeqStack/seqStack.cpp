@@ -14,6 +14,7 @@ vSeqStack* CreatSeqStack(int capacity)
 	seqStack* stack = (pSeqStack)malloc(sizeof(seqStack));
 	assert(stack != nullptr);
 	stack->node = (elemType *)malloc(sizeof(elemType)*capacity);//与使用 数组区别
+										//if malloc with stack ?what will occur?
 	stack->topOfStack = defEmptyTOS;
 	stack->capacity = capacity;
 	stack->length = 0;
