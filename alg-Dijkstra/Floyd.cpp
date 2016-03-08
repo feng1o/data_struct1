@@ -1,3 +1,4 @@
+#if 0
 for (int k = 0; k<n; ++k) {
 
 	for (int i = 0; i<n; ++i) {
@@ -96,3 +97,4 @@ void printPath(int from, int to) {
 	}
 
 }
+#endif

@@ -82,10 +82,12 @@
     <ClCompile Include="dijkstra.cpp" />
     <ClCompile Include="Floyd.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="topSort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dijkstra.h" />
     <ClInclude Include="Floyd.h" />
+    <ClInclude Include="topSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
