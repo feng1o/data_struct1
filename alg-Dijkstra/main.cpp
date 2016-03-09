@@ -36,5 +36,9 @@ for (int i = 0; i < def_VertexNum; i++)
 	pAdjacentTable adjTable = new adjacentTable[def_VertexNum];
 	createAdjacentTable(adjTable, def_VertexNum);
 	travelAdjacentTable(adjTable, def_VertexNum);
+	Djkstra(adjTable, def_VertexNum, 0);
+
+	std::cout << "\n............................................\n";
+	travelAdjacentTable(adjTable, def_VertexNum);
 	return 0;
 }

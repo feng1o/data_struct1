@@ -10,7 +10,7 @@
 #define  def_VertexNum  4
 #define  def_MAXCAST  INT_MAX
 #define  def_notVertex -1
-#define  vertex  unsigned short 
+#define  vertex  signed int 
 typedef  int  elemType;
 using namespace  std;
 
