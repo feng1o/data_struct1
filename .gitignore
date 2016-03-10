@@ -1,5 +1,6 @@
 #ignore
 *.exe
+*.opensdf
 Release/
 **/Debug/
 # !xxx.exe #就可加

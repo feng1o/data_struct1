@@ -121,22 +121,20 @@ void travelAdjacentTable(pAdjacentTable adjTable, int vertexNum)
 	}
 }
 
-int findSmallestVertexToCurrentVertex(pAdjacentTable table, int i)
+int findSmallestVertexToCurrentVertex(pAdjacentTable table, int num)
 {
 	int smallestIndex = def_notVertex;
 	int smallCast = INT_MAX;
-	pAdjacentNode adjNode = table[i].adjacentNode;
-	while (adjNode != nullptr)
+	int n = 0;
+	while (n < num )
 	{
-		if (adjNode->adjcentNodeCast < smallCast && table[adjNode->vertexNumber].known == false)
+		if (table[n].known == false && table[n].sumCast < smallCast)
 		{
-			smallestIndex = adjNode->vertexNumber;
-			smallCast = adjNode->adjcentNodeCast;
-			table[smallestIndex].pathInde = i;  //
+			smallestIndex = n;
+			smallCast = table[n].sumCast;
 		}
-		adjNode = adjNode->next;
+		n++;
 	}
-	//table[smallestIndex].pathInde = i;
 	return smallestIndex;
 }
 
@@ -155,26 +153,27 @@ void updateSumCostAllVertex(pAdjacentTable adjTable, int i, int lastKnown, int s
 }
 void Djkstra(pAdjacentTable adjTable, int vertexNum, int i)
 {
+	adjTable[i].known = true;
+	adjTable[i].sumCast = 0;  
+	//adjTable[i].pathInde = i;  //递归退出条件，不可赋值
 	pAdjacentNode adjNode = NULL;
 	adjNode = adjTable[i].adjacentNode;  //update node i ;;
-	adjTable[i].known = true;
-	//adjTable[i].pathInde = i;
 	while (adjNode != nullptr)
 	{
 		adjTable[adjNode->vertexNumber].sumCast = adjNode->adjcentNodeCast; //更新各个点的代价
-		adjNode = adjNode->next; 
+		adjTable[adjNode->vertexNumber].pathInde = i;
+		adjNode = adjNode->next;
 	}
 
 	vertex Vsmall = def_notVertex;
 	vertex W_adjV = def_notVertex;
 	for (int n = 1; n < vertexNum; n++)
 	{
-		Vsmall = findSmallestVertexToCurrentVertex(adjTable, i); //从前一个点出发，找到代价最小的node
+		Vsmall = findSmallestVertexToCurrentVertex(adjTable, vertexNum); //从前一个点出发，找到代价最小的node
 		if (def_notVertex == Vsmall)
 			break;
 		i = Vsmall;
 		adjTable[Vsmall].known = true;
-		//adjTable[i].pathInde = Vsmall;
 		adjNode = adjTable[Vsmall].adjacentNode;
 		while (adjNode != nullptr)
 		{
@@ -183,6 +182,7 @@ void Djkstra(pAdjacentTable adjTable, int vertexNum, int i)
 			if (adjTable[W_adjV].known == false && adjTable[W_adjV].sumCast > adjTable[Vsmall].sumCast + adjNode->adjcentNodeCast)
 			{
 				adjTable[W_adjV].sumCast = adjTable[Vsmall].sumCast + adjNode->adjcentNodeCast;
+				adjTable[W_adjV].pathInde = Vsmall;
 			}
 			adjNode = adjNode->next;
 		}
