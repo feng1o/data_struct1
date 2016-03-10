@@ -11,6 +11,7 @@
 #define  def_MAXCAST  INT_MAX
 #define  def_notVertex -1
 #define  vertex  signed int 
+
 typedef  int  elemType;
 using namespace  std;
 
@@ -43,6 +44,8 @@ void createAdjacentTable(pAdjacentTable adjTable, int vertexNum);
 void travelAdjacentTable(pAdjacentTable adjTable, int vertexNum);
 
 void Djkstra(pAdjacentTable adjTable, int vertexNum, int i);
+
+void printRoute(pAdjacentTable adjTable ,int end);
 
 #endif
 

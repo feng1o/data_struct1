@@ -102,9 +102,10 @@ void createAdjacentTable(pAdjacentTable adjTable, int vertexNum)
 
 void travelAdjacentTable(pAdjacentTable adjTable, int vertexNum)
 {
+	cout << "\n";
 	for (int i = 0; i < vertexNum; i++)
 	{
-		cout << "known: " << std::boolalpha << adjTable[i].known << " path:" << adjTable[i].pathInde << " sumcast:" << adjTable[i].sumCast << endl;
+		cout << "结点:" << i << "最短路径找到否:" << std::boolalpha << left <<setw(6) << adjTable[i].known << " path:" << setw(2) << adjTable[i].pathInde << " sumcast:" << setw(4) << adjTable[i].sumCast << endl;
 	}
 	for (int i = 0; i < vertexNum; i++)
 	{
@@ -131,10 +132,11 @@ int findSmallestVertexToCurrentVertex(pAdjacentTable table, int i)
 		{
 			smallestIndex = adjNode->vertexNumber;
 			smallCast = adjNode->adjcentNodeCast;
+			table[smallestIndex].pathInde = i;  //
 		}
 		adjNode = adjNode->next;
 	}
-	table[smallestIndex].pathInde = i;
+	//table[smallestIndex].pathInde = i;
 	return smallestIndex;
 }
 
@@ -185,4 +187,15 @@ void Djkstra(pAdjacentTable adjTable, int vertexNum, int i)
 			adjNode = adjNode->next;
 		}
 	}
+}
+
+
+void printRoute(pAdjacentTable adjTable,  int end)
+{
+	if (adjTable[end].pathInde != def_notVertex)
+	{
+		printRoute(adjTable, adjTable[end].pathInde);
+		cout << " to ";
+	}
+	cout << end;
 }

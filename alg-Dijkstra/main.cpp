@@ -35,10 +35,15 @@ for (int i = 0; i < def_VertexNum; i++)
 
 	pAdjacentTable adjTable = new adjacentTable[def_VertexNum];
 	createAdjacentTable(adjTable, def_VertexNum);
+	std::cout << "\n....................原始..........................\n";
 	travelAdjacentTable(adjTable, def_VertexNum);
 	Djkstra(adjTable, def_VertexNum, 0);
 
-	std::cout << "\n............................................\n";
+	std::cout << "\n....................处理后........................\n";
 	travelAdjacentTable(adjTable, def_VertexNum);
+
+
+	cout << "打印路径：" ;
+	printRoute(adjTable, 3);
 	return 0;
 }
