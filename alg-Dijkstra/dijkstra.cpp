@@ -138,19 +138,6 @@ int findSmallestVertexToCurrentVertex(pAdjacentTable table, int num)
 	return smallestIndex;
 }
 
-void updateSumCostAllVertex(pAdjacentTable adjTable, int i, int lastKnown, int subCost)
-{
-	//pAdjacentNode adjNode = adjTable[i].adjacentNode;
-	//adjTable[i].known = true;
-	//while (adjNode != nullptr)
-	//{
-		if (adjTable[i].known == false && adjTable[i].sumCast > adjTable[lastKnown].sumCast + subCost)
-		{
-			adjTable[i].sumCast = adjTable[lastKnown].sumCast + subCost;
-		}
-	//	adjNode = adjNode->next;
-	//}
-}
 void Djkstra(pAdjacentTable adjTable, int vertexNum, int i)
 {
 	adjTable[i].known = true;
