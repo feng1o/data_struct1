@@ -1,6 +1,6 @@
 #include "dijkstra.h"
 
-#if 01
+#if 0
 #include<iostream>
 #include<fstream>
 using namespace std;

@@ -77,9 +77,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alg--xiPKcard", "alg--xiPKc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heap--priorityQueue", "heap--priorityQueue\heap--priorityQueue.vcxproj", "{3AE618F2-7556-4F0B-B5F3-3B4C4776CD59}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alg-Dijkstra", "alg-Dijkstra\alg-Dijkstra.vcxproj", "{3EEF3A4C-7EE1-4B60-8D69-C403C1DDEF3B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alg-Dijkstra-Floyd", "alg-Dijkstra\alg-Dijkstra.vcxproj", "{3EEF3A4C-7EE1-4B60-8D69-C403C1DDEF3B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alg-ministBornTree", "alg-ministBornTree\alg-ministBornTree.vcxproj", "{80ED62DB-C212-45B4-AF60-2DEBEAA6DAAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "list-crosslist", "list\list.vcxproj", "{F0E2370D-9ED1-4C04-B6F5-4A7B9BDD5662}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{80ED62DB-C212-45B4-AF60-2DEBEAA6DAAB}.Debug|Win32.Build.0 = Debug|Win32
 		{80ED62DB-C212-45B4-AF60-2DEBEAA6DAAB}.Release|Win32.ActiveCfg = Release|Win32
 		{80ED62DB-C212-45B4-AF60-2DEBEAA6DAAB}.Release|Win32.Build.0 = Release|Win32
+		{F0E2370D-9ED1-4C04-B6F5-4A7B9BDD5662}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0E2370D-9ED1-4C04-B6F5-4A7B9BDD5662}.Debug|Win32.Build.0 = Debug|Win32
+		{F0E2370D-9ED1-4C04-B6F5-4A7B9BDD5662}.Release|Win32.ActiveCfg = Release|Win32
+		{F0E2370D-9ED1-4C04-B6F5-4A7B9BDD5662}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
