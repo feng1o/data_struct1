@@ -1,3 +1,4 @@
+#if 01  //²Î¿¼
 #include <stdio.h>  
 #include <stdlib.h>  
 #include <iostream>  
@@ -122,10 +123,11 @@ void printList()
 	}
 }
 
-int main()
+int main1()
 {
 	init();
 	insert();
 	printList();
 	return 0;
 }
+#endif
