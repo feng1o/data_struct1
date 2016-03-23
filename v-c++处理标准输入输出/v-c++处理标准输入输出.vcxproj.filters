@@ -18,5 +18,11 @@
     <ClCompile Include="cinCout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cinCout2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

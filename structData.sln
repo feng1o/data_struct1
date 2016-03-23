@@ -85,6 +85,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "list-crosslist", "list\list
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "v-c++处理标准输入输出", "v-c++处理标准输入输出\v-c++处理标准输入输出.vcxproj", "{DBF871FB-9DAB-4F45-BD39-28550BDB3BDE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hash-separateChaining", "hash-separateChaining\hash-separateChaining.vcxproj", "{ACAEC02F-6548-4FD1-9F05-2183DC8C5E5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -255,6 +257,10 @@ Global
 		{DBF871FB-9DAB-4F45-BD39-28550BDB3BDE}.Debug|Win32.Build.0 = Debug|Win32
 		{DBF871FB-9DAB-4F45-BD39-28550BDB3BDE}.Release|Win32.ActiveCfg = Release|Win32
 		{DBF871FB-9DAB-4F45-BD39-28550BDB3BDE}.Release|Win32.Build.0 = Release|Win32
+		{ACAEC02F-6548-4FD1-9F05-2183DC8C5E5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACAEC02F-6548-4FD1-9F05-2183DC8C5E5E}.Debug|Win32.Build.0 = Debug|Win32
+		{ACAEC02F-6548-4FD1-9F05-2183DC8C5E5E}.Release|Win32.ActiveCfg = Release|Win32
+		{ACAEC02F-6548-4FD1-9F05-2183DC8C5E5E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
