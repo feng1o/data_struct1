@@ -21,5 +21,9 @@
 
 	void CreatHeap(const int a[], int N);
 
+	void InsertSort(int array[], int N);
+
+	void BubbleSort(int array[], int n);
+
 
 #endif

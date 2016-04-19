@@ -82,8 +82,10 @@
     <ClInclude Include="sort.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="bubblesort.cpp" />
     <ClCompile Include="creatArrPrintArr.cpp" />
     <ClCompile Include="heapSort.cpp" />
+    <ClCompile Include="insertsort.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mergeSort.cpp" />
     <ClCompile Include="quickSort.cpp" />

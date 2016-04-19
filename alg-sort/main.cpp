@@ -16,19 +16,26 @@ int main()
 	printInitialArr(array, def_N);
 	int i = 0;
 	while (1){
-		printf("输入一个数字选择：1.选择排序，2.插入，3.堆排序，4.归并排序， 5.希尔排序、\n");
+		printf("输入一个数字选择：1.选择排序，2.插入，3.堆排序，4.归并排序， 5.希尔排序、6.冒泡排序\n");
 		scanf("%d", &i);
 		switch (i){
 		case 1:
 			SelectSort(array, def_N);
 			break;
 		case 2:
+			InsertSort(array, def_N);
 			break;
 		case 3:
 			HeapSort(array, def_N);
 			break;
+		case 4:
+			break;
+		case 5:
+			break;
+		case 6:
+			BubbleSort(array,  def_N);
+			break;
 		}
-		//printSortedArr(array, def_N);
 		printSortedArr(array, def_N);
 
 	}

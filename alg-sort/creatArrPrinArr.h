@@ -10,7 +10,7 @@
 #include "memory"
 #include "iomanip"
 
-#define  def_N  5
+#define  def_N  10
 extern "C"
 {
 	int* creatRandomArray(const int  N);
