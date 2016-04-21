@@ -1,6 +1,7 @@
 #include "sort.h"
 #include "creatArrPrinArr.h"
 
+
 int main()
 {
 	int i2 = 1;
@@ -31,6 +32,7 @@ int main()
 		case 4:
 			break;
 		case 5:
+			shellSort(array, def_N);
 			break;
 		case 6:
 			BubbleSort(array,  def_N);

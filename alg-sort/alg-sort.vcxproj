@@ -90,6 +90,7 @@
     <ClCompile Include="mergeSort.cpp" />
     <ClCompile Include="quickSort.cpp" />
     <ClCompile Include="selectSort.cpp" />
+    <ClCompile Include="shellsort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
