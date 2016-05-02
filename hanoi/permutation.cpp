@@ -44,7 +44,7 @@ void main()
 }
 #endif
 
-#if 01
+#if 0
 
 #include <stdio.h>
 
@@ -75,7 +75,14 @@ void permutation(char s[], int b, int e)
 		}
 	}
 }
+#endif
 
+#if 01
+#include "stdio.h"
+//{(a)^=(b)^=(a)^=(b);}
+//#define def_myswap(a, b)  do{a += b; b = a-b; a = a-  b; } while(0)
+#define def_myswap(a, b)  do{char tmp = a; a = b; b = tmp; } while(0)
+void permutation(char s[], int b, int e);
 int main()
 {
 	char s[] = "abc";
@@ -84,4 +91,25 @@ int main()
 
 	return 0;
 }
+
+void permutation(char s[], int b, int e)
+{
+	//char *ans = (char *)malloc(e*sizeof(char));
+	if ( b == e )
+	{
+		printf("...%s\n", s);
+	}
+	else {
+		int i = b;
+		for (; i < e; ++i)
+		{
+			def_myswap(s[b], s[i]);
+			//printf("%c", s[i]);
+			permutation(s, b + 1, e);
+			def_myswap(s[b], s[i]);
+
+		}
+	}
+}
+
 #endif

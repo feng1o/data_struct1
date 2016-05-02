@@ -89,6 +89,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hash-separateChaining", "ha
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "v-ali", "v-ali\v-ali.vcxproj", "{D4BD3369-5B54-4758-94FA-9AB56EF40904}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "y--sto-28全排列递归", "y--sto-28全排列递归\y--sto-28全排列递归.vcxproj", "{E429DF1E-C7B5-4FBE-90A3-06AD10C18F7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -267,6 +269,10 @@ Global
 		{D4BD3369-5B54-4758-94FA-9AB56EF40904}.Debug|Win32.Build.0 = Debug|Win32
 		{D4BD3369-5B54-4758-94FA-9AB56EF40904}.Release|Win32.ActiveCfg = Release|Win32
 		{D4BD3369-5B54-4758-94FA-9AB56EF40904}.Release|Win32.Build.0 = Release|Win32
+		{E429DF1E-C7B5-4FBE-90A3-06AD10C18F7D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E429DF1E-C7B5-4FBE-90A3-06AD10C18F7D}.Debug|Win32.Build.0 = Debug|Win32
+		{E429DF1E-C7B5-4FBE-90A3-06AD10C18F7D}.Release|Win32.ActiveCfg = Release|Win32
+		{E429DF1E-C7B5-4FBE-90A3-06AD10C18F7D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

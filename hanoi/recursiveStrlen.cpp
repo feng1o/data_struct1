@@ -1,4 +1,4 @@
-#if 01
+#if 0
 #include "stdlib.h"
 #include "stdio.h"
 #define  defMyPrint(x)  printf("%s≥§∂» «%d",#x,x)
