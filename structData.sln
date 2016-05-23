@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "y--sto-28全排列递归", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "y--sto--30最小的k个数", "y--sto--30最小的k个数\y--sto--30最小的k个数.vcxproj", "{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "y--sto-36数组中的逆序", "y--sto-36数组中的逆序\y--sto-36数组中的逆序.vcxproj", "{C35CB26B-F9E8-4141-B5AA-FE2D90F32D2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -279,6 +281,10 @@ Global
 		{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}.Debug|Win32.Build.0 = Debug|Win32
 		{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}.Release|Win32.ActiveCfg = Release|Win32
 		{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}.Release|Win32.Build.0 = Release|Win32
+		{C35CB26B-F9E8-4141-B5AA-FE2D90F32D2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C35CB26B-F9E8-4141-B5AA-FE2D90F32D2E}.Debug|Win32.Build.0 = Debug|Win32
+		{C35CB26B-F9E8-4141-B5AA-FE2D90F32D2E}.Release|Win32.ActiveCfg = Release|Win32
+		{C35CB26B-F9E8-4141-B5AA-FE2D90F32D2E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
