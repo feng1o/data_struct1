@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "v-ali", "v-ali\v-ali.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "y--sto-28全排列递归", "y--sto-28全排列递归\y--sto-28全排列递归.vcxproj", "{E429DF1E-C7B5-4FBE-90A3-06AD10C18F7D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "y--sto--30最小的k个数", "y--sto--30最小的k个数\y--sto--30最小的k个数.vcxproj", "{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -273,6 +275,10 @@ Global
 		{E429DF1E-C7B5-4FBE-90A3-06AD10C18F7D}.Debug|Win32.Build.0 = Debug|Win32
 		{E429DF1E-C7B5-4FBE-90A3-06AD10C18F7D}.Release|Win32.ActiveCfg = Release|Win32
 		{E429DF1E-C7B5-4FBE-90A3-06AD10C18F7D}.Release|Win32.Build.0 = Release|Win32
+		{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}.Debug|Win32.Build.0 = Debug|Win32
+		{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}.Release|Win32.ActiveCfg = Release|Win32
+		{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

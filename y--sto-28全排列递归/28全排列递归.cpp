@@ -52,7 +52,7 @@ void cPermutatio::recurpermu(int begin){
 	for (int i = begin; i < len; ++i)
 	{
 		if (uniqset.find(str[i]) == uniqset.end()){
-			uniqset.insert(str[i]);
+			//uniqset.insert(str[i]);
 			std::swap(str[i], str[begin]);
 			recurpermu(begin + 1);
 			std::swap(str[i], str[begin]);
