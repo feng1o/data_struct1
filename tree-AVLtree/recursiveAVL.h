@@ -6,7 +6,7 @@
 #include "cassert"
 #define  def_MyAssert(x)  do if(!(x)){ \
 					std::cout<<__LINE__<<__DATE__<<__FILE__<<__FUNCTION__<<std::endl;\
-					abort();}} while(0)
+					abort();} while(0)
 #define  def_HIGHT(tree) do \
 		{\
 		 if(tree) return (tree)->depth;\

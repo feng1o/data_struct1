@@ -1,4 +1,4 @@
-#if 0
+#if 01
 //http://note.youdao.com/share/?id=4d67ed2a111df899a752ebbc9eaeb02b&type=note
 #include "iostream"
 #include "iomanip"
@@ -9,6 +9,10 @@ int main()
 {
 
 	int number;
+	int number2;
+	cin >> number >> number2;
+	cout << number << number2;
+	
 	char ch;
 	char a[200];
 	string str1;
