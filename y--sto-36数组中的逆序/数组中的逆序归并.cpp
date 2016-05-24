@@ -50,3 +50,7 @@ int main()
 	cout << sol.InversePairs(ivec);
 	return 0;
 }
+<<<<<<< Updated upstream
+=======
+//addd
+>>>>>>> Stashed changes
