@@ -20,6 +20,13 @@
 	void  HeapSort(int *a, int N);
 
 	void CreatHeap(const int a[], int N);
+	void CreatHeap(int a[], int i, const int N);
+
+	void InsertSort(int array[], int N);
+
+	void BubbleSort(int array[], int n);
+
+	void shellSort(int array[], int n);
 
 
 #endif
