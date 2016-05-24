@@ -50,6 +50,6 @@ int main()
 	cout << sol.InversePairs(ivec);
 	return 0;
 }
-///1111111111
+///11111
 
 
