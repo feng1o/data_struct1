@@ -50,6 +50,11 @@ int main()
 	cout << sol.InversePairs(ivec);
 	return 0;
 }
+<<<<<<< HEAD
 ///1111111111
 //ADD
+=======
+///11111
+
+>>>>>>> 873a9c806ccf4b8921ec364897fbc0c4bf62a245
 
