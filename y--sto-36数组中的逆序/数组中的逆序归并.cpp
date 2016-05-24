@@ -51,6 +51,10 @@ int main()
 	return 0;
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+//addd
+>>>>>>> Stashed changes
 =======
 //addd
 >>>>>>> Stashed changes
