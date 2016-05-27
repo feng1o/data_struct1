@@ -95,6 +95,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "y--sto--30最小的k个数"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "y--sto-36数组中的逆序", "y--sto-36数组中的逆序\y--sto-36数组中的逆序.vcxproj", "{C35CB26B-F9E8-4141-B5AA-FE2D90F32D2E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "u----------------------------", "u----------------------------\u----------------------------.vcxproj", "{D2939847-82B9-45B0-A0CF-01A8211CBD33}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "u--pp-1.2 位逻辑位运算", "u--pp-1.2 位逻辑位运算\u--pp-1.2 位逻辑位运算.vcxproj", "{D538B5B1-80A4-4396-8EF5-D06545DF8D75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -285,6 +289,14 @@ Global
 		{C35CB26B-F9E8-4141-B5AA-FE2D90F32D2E}.Debug|Win32.Build.0 = Debug|Win32
 		{C35CB26B-F9E8-4141-B5AA-FE2D90F32D2E}.Release|Win32.ActiveCfg = Release|Win32
 		{C35CB26B-F9E8-4141-B5AA-FE2D90F32D2E}.Release|Win32.Build.0 = Release|Win32
+		{D2939847-82B9-45B0-A0CF-01A8211CBD33}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2939847-82B9-45B0-A0CF-01A8211CBD33}.Debug|Win32.Build.0 = Debug|Win32
+		{D2939847-82B9-45B0-A0CF-01A8211CBD33}.Release|Win32.ActiveCfg = Release|Win32
+		{D2939847-82B9-45B0-A0CF-01A8211CBD33}.Release|Win32.Build.0 = Release|Win32
+		{D538B5B1-80A4-4396-8EF5-D06545DF8D75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D538B5B1-80A4-4396-8EF5-D06545DF8D75}.Debug|Win32.Build.0 = Debug|Win32
+		{D538B5B1-80A4-4396-8EF5-D06545DF8D75}.Release|Win32.ActiveCfg = Release|Win32
+		{D538B5B1-80A4-4396-8EF5-D06545DF8D75}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
