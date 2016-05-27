@@ -26,7 +26,16 @@ int test(int i){
 }
 int main(){
 	set(100);
-	cout << test(100) << endl;
+	cout << test(100) << endl;	
+	set(0);
+	cout << test(0) << endl;
+
+	set(31);
+	cout << test(31) << endl;
+
+	set(32);
+	cout << test(32) << endl;
+
 	clear(100);
 	cout << test(100) << endl;
 	return 0;
