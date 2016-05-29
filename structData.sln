@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "u--------------------------
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "u--pp-1.2 位逻辑位运算", "u--pp-1.2 位逻辑位运算\u--pp-1.2 位逻辑位运算.vcxproj", "{D538B5B1-80A4-4396-8EF5-D06545DF8D75}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "v--c输入出问题", "v--c输入出问题\v--c输入出问题.vcxproj", "{6631551E-FE9E-4B85-BEB2-3BB4D0F1385C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -297,6 +299,10 @@ Global
 		{D538B5B1-80A4-4396-8EF5-D06545DF8D75}.Debug|Win32.Build.0 = Debug|Win32
 		{D538B5B1-80A4-4396-8EF5-D06545DF8D75}.Release|Win32.ActiveCfg = Release|Win32
 		{D538B5B1-80A4-4396-8EF5-D06545DF8D75}.Release|Win32.Build.0 = Release|Win32
+		{6631551E-FE9E-4B85-BEB2-3BB4D0F1385C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6631551E-FE9E-4B85-BEB2-3BB4D0F1385C}.Debug|Win32.Build.0 = Debug|Win32
+		{6631551E-FE9E-4B85-BEB2-3BB4D0F1385C}.Release|Win32.ActiveCfg = Release|Win32
+		{6631551E-FE9E-4B85-BEB2-3BB4D0F1385C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
