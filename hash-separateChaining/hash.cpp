@@ -53,3 +53,15 @@ int myHash(elementType key, int size)
 	}
 	return hashKye % size;
 }
+
+
+pListNode find(elementType element, hashTable* hTable){
+	if (NULL == hTable)
+		return NULL;
+	pListNode node = hTable->ppTableList[myHash(element, hTable->size)];
+	while (node!=NULL && node->element != element)
+	{
+		node = node->next;
+	}
+	return node;
+}

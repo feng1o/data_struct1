@@ -14,6 +14,7 @@ int main()
 	insert("abdbc", hTable);
 	insert("abdbc", hTable);
 	insert("abdbc", hTable);
+	
 	insert("a", hTable);
 	insert("ac", hTable);
 	insert("ac", hTable);
@@ -24,5 +25,8 @@ int main()
 	insert("fffac", hTable);
 
 	travelHashTable(hTable);
+	cout << find("abc", hTable)->element << endl;
+
+
 	return 0;
 }
