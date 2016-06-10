@@ -78,8 +78,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cin.ignore.cpp" />
     <ClCompile Include="cinCout.cpp" />
     <ClCompile Include="cinCout2.cpp" />
+    <ClCompile Include="getline.cpp" />
     <ClCompile Include="scanf.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
