@@ -19,7 +19,7 @@ typedef struct str_ListNode {
 	elementType  element;
 	struct str_ListNode * next;
 }ListNode;
-typedef ListNode *pListNode;
+typedef ListNode* pListNode;
 
 struct str_hashTable{
 	int size;
