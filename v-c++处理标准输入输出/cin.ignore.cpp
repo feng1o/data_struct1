@@ -8,6 +8,7 @@ int main()
 	
 	const unsigned short N = 10;
 	int num[N];
+
 	//std::cout << "input 10 data:\n";
 	int i;
 	cin.ignore();//也会忽略第一个遇到的a，如果是被a分割的，，
