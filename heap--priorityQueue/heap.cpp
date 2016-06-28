@@ -5,7 +5,9 @@ pPriorityQueue initPriorityQueue(int capacity)
 {
 	if (capacity < 1)
 		return NULL;
-	pPriorityQueue heap = (pPriorityQueue)malloc(sizeof(priorityQueue) + sizeof(elemType)*capacity);
+	pPriorityQueue heap = (pPriorityQueue)calloc(sizeof(priorityQueue) + sizeof(elemType)*capacity, sizeof(char));
+	//pPriorityQueue heap = (pPriorityQueue)calloc(1, sizeof(priorityQueue) + sizeof(elemType)*capacity); //0k
+	//pPriorityQueue heap = (pPriorityQueue)malloc(sizeof(priorityQueue) + sizeof(elemType)*capacity);
 	//assert(heap == nullptr);
 	def_MyAssert(heap);
 	heap->capacity = capacity;
@@ -13,14 +15,7 @@ pPriorityQueue initPriorityQueue(int capacity)
 	heap->element = (elemType*)(heap + 1);
 	//for (int i = 0; i < capacity; i++) //初始化
 		//heap->element[i] = 0;
-				
-					/*				
-							SeqList* Creat_list(int capacity) //这里不可以是 List* Creat_list(int capacity) 声明中是！！！！！可以返回一个指针给void*！
-							{
-								List* ret = NULL;
-								if (capacity >= 0)
-								{
-									// List* ret =  不可以在此处定义，否则如果capacity为0时候，这个程序运行出错
+				/*				SeqList* Creat_list(int capacity) //这里不可以是 List* Creat_list(int capacity) 声明中是！！！！！可以返回一个指针给void*！ { List* ret = NULL; if (capacity >= 0) { // List* ret =  不可以在此处定义，否则如果capacity为0时候，这个程序运行出错
 									ret = (List*)malloc(sizeof(List) + sizeof(ListNode)*capacity);
 
 									//意义深刻，现有个sruct 结构提，后面跟着的是listnode；
@@ -125,8 +120,7 @@ void travelPriorityQueue(pPriorityQueue heap)
 bool isFull(pPriorityQueue heap)
 {
 	return heap->size == heap->capacity ? true : false;
-}
-
+ } 
 bool isEmpty(pPriorityQueue heap)
 {
 	return !heap->size;
