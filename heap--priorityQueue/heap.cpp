@@ -71,7 +71,7 @@ elemType deleteMinElem(pPriorityQueue heap)
 	if (NULL == heap || isEmpty(heap))
 	{
 		perror("error, no element to delete!\n");
-		return INT_MAX;
+		return INT_MAX;  //如果把第0个元素作为标志比较好，直接返回....
 	}
 	elemType minElem = heap->element[0];
 	elemType LastElem = heap->element[heap->size - 1];
