@@ -18,6 +18,7 @@ void shellSort(int array[], int n)
 }
 #endif
 
+#if 0
 void shellSort(int array[], int n)
 {
 	int gap = n / 2;
@@ -37,5 +38,23 @@ void shellSort(int array[], int n)
 				array[k+gap] = tmp;
 			}
 		}
+	}
+}
+#endif
+
+void shellSort(int array[], int n){
+	int step = n / 2;
+	while (step > 0){
+		for (int i = step ; i < n;  ++i)
+		//for (int i = step ; i + step < n; i = i + step)
+		{
+			int tmp = array[i];
+			int j;
+			for ( j= i; j > step - 1 && tmp < array[j - step]; j = j - step)
+				array[j] = array[j - step];
+			array[j] = tmp;
+		}
+
+		step /= 2;
 	}
 }
