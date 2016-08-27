@@ -155,7 +155,7 @@ CircleListnode* Delet_Circle_List(Circlelist* list, int pos)
 
 
 
-void main()
+void main2()
 {
 	Circlelist* list = Creat_Circle_List();
 	struct Circle_List_value v1, v2, v3, v4;

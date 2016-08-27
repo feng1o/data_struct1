@@ -6,12 +6,15 @@
 
 #include "stdafx.h"
 #include <string>
+#include "cassert"
 
 class CMyString
 {
 public:
     CMyString(char* pData = NULL);
     CMyString(const CMyString& str);
+	CMyString(CMyString&& str) :m_pData(str.m_pData){ m_pData = nullptr; };
+
     ~CMyString(void);
 
     CMyString& operator = (const CMyString& str);
@@ -21,7 +24,12 @@ public:
 private:
     char* m_pData;
 };
-
+CMyString& CMyString::operator =(const CMyString& str){
+	CMyString tmp(str.m_pData);
+	delete m_pData;
+	m_pData = tmp.m_pData;
+	return *this;
+}
 CMyString::CMyString(char *pData)
 {
     if(pData == NULL)
@@ -129,6 +137,7 @@ void Test3()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	//static_assert(1 != 1, "sattic  assert");
     Test1();
     Test2();
     Test3();

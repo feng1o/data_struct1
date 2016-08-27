@@ -1,6 +1,6 @@
 #include "sort.h"
 
-#if 0
+#if 1
 void shellSort(int array[], int n)
 {
 	int gap = n / 2;
@@ -18,7 +18,8 @@ void shellSort(int array[], int n)
 }
 #endif
 
-void shellSort(int array[], int n)
+#if 0
+void shellSort(int array[], int n) //no use this
 {
 	int gap = n / 2;
 	for (; gap >= 1; gap /= 2)
@@ -39,3 +40,5 @@ void shellSort(int array[], int n)
 		}
 	}
 }
+
+#endif 

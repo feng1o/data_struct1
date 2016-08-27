@@ -121,3 +121,22 @@ int _tmain(int argc, _TCHAR* argv[])
     return 0;
 }
 
+//面试经典上的一个思路，，，，突击节点
+int findKth2(int k) {
+	// write code here
+	// write code here
+	int num = 3;
+	while (num && k){
+		int temp = num;
+		while (temp % 3 == 0)
+			temp /= 3;
+		while (temp % 5 == 0)
+			temp /= 5;
+		while (temp % 7 == 0)
+			temp /= 7;
+		if (1 == temp)
+			k--;
+		num++;
+	}
+	return --num;
+}

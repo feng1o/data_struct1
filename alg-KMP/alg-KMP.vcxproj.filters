@@ -18,5 +18,8 @@
     <ClCompile Include="BF.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1.next值.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

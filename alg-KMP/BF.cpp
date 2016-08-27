@@ -1,6 +1,20 @@
-#if 01
+#if 0
 #include "iostream"
 
+int BruteForece2(const char* str, const char* substr){
+	int len = strlen(str);
+	int sublen = strlen(substr);
+	for (int i = 0; i < len; ++i)
+	{
+		int j = 0;
+		if (str[i] == substr[j])
+		{
+			if ((strncmp(str+i, substr, sublen) == 0))
+				return i;
+		}
+	}
+	return -1;
+}
 int BruteForece(const char* str, const char* substr)
 {
 	unsigned char len = strlen(str);
@@ -21,7 +35,7 @@ int BruteForece(const char* str, const char* substr)
 
 int main()
 {
-	int index = BruteForece("liufe2ng", "fe");
+	int index = BruteForece2("sdffesadg", "fe");
 	std::cout << index << std::endl;
 	return 0;
 }

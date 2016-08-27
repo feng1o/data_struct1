@@ -50,7 +50,7 @@ int main()
 
 
 #endif
-#if 01
+#if 0
 //http://note.youdao.com/share/?id=4d67ed2a111df899a752ebbc9eaeb02b&type=note
 #include "iostream"
 #include "iomanip"

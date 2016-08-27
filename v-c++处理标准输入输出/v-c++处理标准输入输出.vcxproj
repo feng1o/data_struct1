@@ -81,8 +81,10 @@
     <ClCompile Include="cin.ignore.cpp" />
     <ClCompile Include="cinCout.cpp" />
     <ClCompile Include="cinCout2.cpp" />
+    <ClCompile Include="fstream.cpp" />
     <ClCompile Include="getline.cpp" />
     <ClCompile Include="scanf.cpp" />
+    <ClCompile Include="stringstream.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

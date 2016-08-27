@@ -19,9 +19,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_PrintMatrix", "PrintMatr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "49_StringToInt", "StringToInt\StringToInt.vcxproj", "{B1638FE3-73A8-44BE-8AD4-929C980010B7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_NumberOf1InBinary", "NumberOf1InBinary\NumberOf1InBinary.vcxproj", "{05387B17-7329-4FFD-BB33-17C8731A5619}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_NumberOf1InBinary", "NumberOf1InBinary\NumberOf1InBinary.vcxproj", "{05387B17-7329-4FFD-BB33-17C8731A5619}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_MinNumberInRotatedArray", "MinNumberInRotatedArray\MinNumberInRotatedArray.vcxproj", "{FBC7BF53-7A26-47F0-A12C-B0341372E375}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_MinNumberInRotatedArray", "MinNumberInRotatedArray\MinNumberInRotatedArray.vcxproj", "{FBC7BF53-7A26-47F0-A12C-B0341372E375}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34_UglyNumber", "UglyNumber\UglyNumber.vcxproj", "{5ED48BF9-F9EF-4D6D-AF6B-5A9EA3B2B402}"
 EndProject
@@ -31,8 +31,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "50_CommonParentInTree", "Co
 	ProjectSection(ProjectDependencies) = postProject
 		{6A5A8DA2-0D5E-4F00-A713-B04BE77E8EA7} = {6A5A8DA2-0D5E-4F00-A713-B04BE77E8EA7}
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Singleton", "Singleton\02_Singleton.csproj", "{230C519A-9F92-4FE5-A192-4EC08D76961D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_ReplaceBlank", "ReplaceBlank\ReplaceBlank.vcxproj", "{FD01AD68-4F63-4A51-936E-FA618C4734E7}"
 EndProject
@@ -54,9 +52,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_Power", "Power\Power.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_Print1ToMaxOfNDigits", "Print1ToMaxOfNDigits\Print1ToMaxOfNDigits.vcxproj", "{7BF44879-6E8F-42EC-82DD-1B52631F3789}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_ReorderArray", "ReorderArray\ReorderArray.vcxproj", "{378BE5F1-63CE-4EF8-96DC-3318D76C0637}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_ReorderArray", "ReorderArray\ReorderArray.vcxproj", "{378BE5F1-63CE-4EF8-96DC-3318D76C0637}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_DeleteNodeInList", "DeleteNodeInList\DeleteNodeInList.vcxproj", "{693719DC-8B29-4A4A-8909-0C0DF2BA2E54}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_DeleteNodeInList", "DeleteNodeInList\DeleteNodeInList.vcxproj", "{693719DC-8B29-4A4A-8909-0C0DF2BA2E54}"
 	ProjectSection(ProjectDependencies) = postProject
 		{6A5A8DA2-0D5E-4F00-A713-B04BE77E8EA7} = {6A5A8DA2-0D5E-4F00-A713-B04BE77E8EA7}
 	EndProjectSection
@@ -168,6 +166,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "37_FirstCommonNodesInLists"
 		{6A5A8DA2-0D5E-4F00-A713-B04BE77E8EA7} = {6A5A8DA2-0D5E-4F00-A713-B04BE77E8EA7}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_singleton", "02_singleton\02_singleton.vcxproj", "{ADAE1082-3EE0-4D47-A645-6D010D18499E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -278,16 +278,6 @@ Global
 		{3481A3B6-955E-46A1-91D8-217240BBF0AE}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{3481A3B6-955E-46A1-91D8-217240BBF0AE}.Release|Win32.ActiveCfg = Release|Win32
 		{3481A3B6-955E-46A1-91D8-217240BBF0AE}.Release|Win32.Build.0 = Release|Win32
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{230C519A-9F92-4FE5-A192-4EC08D76961D}.Release|Win32.ActiveCfg = Release|Any CPU
 		{FD01AD68-4F63-4A51-936E-FA618C4734E7}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{FD01AD68-4F63-4A51-936E-FA618C4734E7}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{FD01AD68-4F63-4A51-936E-FA618C4734E7}.Debug|Mixed Platforms.Build.0 = Debug|Win32
@@ -718,6 +708,16 @@ Global
 		{E6E99CD6-9852-4129-850B-17D47370581B}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{E6E99CD6-9852-4129-850B-17D47370581B}.Release|Win32.ActiveCfg = Release|Win32
 		{E6E99CD6-9852-4129-850B-17D47370581B}.Release|Win32.Build.0 = Release|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Debug|Win32.Build.0 = Debug|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Release|Any CPU.ActiveCfg = Release|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Release|Win32.ActiveCfg = Release|Win32
+		{ADAE1082-3EE0-4D47-A645-6D010D18499E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

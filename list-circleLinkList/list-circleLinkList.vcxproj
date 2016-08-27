@@ -11,10 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="circlebiList.h" />
     <ClInclude Include="circleLinkList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="circleLinkList.cpp" />
+    <ClCompile Include="main2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D1167E49-FB4F-4BE0-844A-E0955FD93909}</ProjectGuid>

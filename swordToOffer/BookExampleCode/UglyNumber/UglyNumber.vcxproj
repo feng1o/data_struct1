@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>34_UglyNumber</ProjectName>
+    <ProjectName>34_UglyNumber--dp</ProjectName>
     <ProjectGuid>{5ED48BF9-F9EF-4D6D-AF6B-5A9EA3B2B402}</ProjectGuid>
     <RootNamespace>UglyNumber</RootNamespace>
     <Keyword>Win32Proj</Keyword>

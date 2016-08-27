@@ -124,7 +124,7 @@ void find(int i)
 int main()
 {
 	init();
-	find(1);
+	find(5);
 
 	return 0;
 }

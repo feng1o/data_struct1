@@ -1,5 +1,6 @@
 
 #include"iostream"
+#include "assert.h"
 
 using std::cin;
 using std::cout;
@@ -8,7 +9,7 @@ class MergeSort
 {
 public:
 
-	elementType* mergesort(elementType *A, int n){
+	elementType* mergesort2(elementType *A, int n){
 		// write code here
 		if (NULL == A || n < 2)
 			return NULL;
@@ -63,10 +64,52 @@ public:
 
 	}
 
+public:
+//·ÇµÝ¹éÊµÏÖ
+	elementType* mergesort(elementType *A, int n){
+		elementType* tmparr = (elementType*)malloc(sizeof(elementType)*n);
+		assert(tmparr != NULL);
+		int step = 1;
+		while (step < n){
+			mergeNoRecur(A, tmparr, step, n);
+			step *= 2;
+			mergeNoRecur(tmparr, A, step, n);
+			step *= 2;
+		}
+		for (int i = 0; i < n; ++i)
+		{
+			A[i] = tmparr[i];
+		}
+	}
+	void mergeNoRecur(elementType *A, elementType* tmparr, int step, int n){
+		int i = 0;
+		int j;
+		while (i <= n - 2*step + 1){
+			mergenr(A, tmparr, i, i + step-1, i + 2 * step - 1);
+			i = i + 2 * step;
+		}
+		if (i < n - step + 1)
+		{
+			mergenr(A, tmparr, i, i + step - 1, i + 2 * step - 1);
+		}
+		else
+			while (i < n)
+				tmparr[i] = A[i];
+		
+	}
+	void mergenr(elementType *A, elementType* tmparr, int i,  int i_end, int end){
+		int behind = i_end + 1;
+		for (int j = i; j <= end; ++j)
+		{
+			if (A[i] <= A[behind])
+			{
+				tmparr[j] = A[i++];
+			}
+			else
+				tmparr[j] = A[behind++];
+		}
+	}
 
-
-
-	//elementType a[];
 };
 
 #if 0
