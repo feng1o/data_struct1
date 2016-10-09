@@ -106,7 +106,7 @@ int main()
 	cout << "°Ë»ÊºóÎÊÌâ..........................\n";
 	InitBoard();
 	PrintBoard();
-	//cout<<CountRowPossible(1);
+	cout<<CountRowPossible(1);
 	LayoutQueens(1);
 	//char ch;
 	//cin.get(ch);

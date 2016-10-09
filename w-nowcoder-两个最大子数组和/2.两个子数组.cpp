@@ -1,4 +1,3 @@
-#define  aa
 #if defined(aa)
 #include "iostream"
 #include "string"

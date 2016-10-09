@@ -1,3 +1,4 @@
+#if 0
 //用1、2、2、3、4、5这六个数字，写一个main函数，打印出所有不同的排列，
 
 //如：512234、412325等，要求："4"不能在第三位，"3"与"5"不能相连。
@@ -86,3 +87,4 @@ int main(int argc, char **argv)
 	string_full_permutation_containing_duplicate_char2(str2, 0, len - 1, cnt);
 	cout << endl << endl << cnt << endl;
 }
+#endif

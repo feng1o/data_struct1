@@ -1,4 +1,4 @@
-#define  aa
+#define  a2
 #if defined(a)
 #include "iostream"
 #include "string"

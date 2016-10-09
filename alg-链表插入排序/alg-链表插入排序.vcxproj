@@ -79,7 +79,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.链表插入排序.cpp" />
-    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
